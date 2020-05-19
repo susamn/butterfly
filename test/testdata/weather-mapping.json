@@ -1,0 +1,24 @@
+
+{
+  "coord": {
+    "lon": "weather.location.longitude",
+    "lat": "weather.location.latitude"
+  },
+  "weather": [
+    {
+      "id": "weather.data[].id",
+      "description": "weather.data[].forcast"
+    }
+  ],
+  "main": {
+    "temp": "weather.temperature",
+    "pressure": "weather.pressure",
+    "humidity": "weather.humidity"
+  },
+  "visibility": "weather.visibility",
+  "wind": {
+    "speed": "weather.wind.speed",
+    "deg": "weather.wind.degree"
+  },
+  "name": "weather.location.name"
+}
